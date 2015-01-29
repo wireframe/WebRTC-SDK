@@ -31,7 +31,7 @@
                     videoFrameRate: new Array(5, 15)
                 }, function (res) {
                     if (!res.error) {
-						var participantId = "participant uniqe id";
+						var participantId = "participant unique id";
 						//for example (get random id)
 						participantId = Math.floor(Math.random() * 9999999999) + 1000000000;
                         conference.join(conferenceId, participantId, "participant name", function (result) { });
